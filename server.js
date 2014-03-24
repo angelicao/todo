@@ -4,7 +4,7 @@ var items = [];
 
 var show = function(response) {
   var html = '<html><head><title>Todo List</title></head><body>'
-           + '<h1>Todo Lista</h1>'
+           + '<h1>Todo List</h1>'
            + '<ul>'
            + items.map(function(item){
               return '<li>' + decodeURIComponent(item) + '</li>'
