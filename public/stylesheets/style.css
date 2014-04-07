@@ -1,3 +1,136 @@
+body, textarea, input {
+	font-family: 'Muli', sans-serif;
+}
+
 body {
-  font-family: sans-serif
+margin: 0;
+padding: 0;
+}
+
+#head {
+width: 100%;
+height: 70px;
+background-color: #ff7765;
+}
+
+#headtext {
+	color: #fff;
+	font-size: 32px;
+	line-height: 70px;
+	margin-left: 465px;
+
+}
+
+#bgtop {
+	width: 100%;
+	height: 465px;
+	background-color: #e7e7e7;
+
+}
+
+#textruta {
+	padding-left: 10px;
+	font-size: 25px;
+	margin: auto;
+	width: 540px;
+	height: 50px;
+	display: block;
+
+}
+
+#textruta1 {
+	padding-left: 10px;
+	padding-top: 10px;
+	font-size: 20px;
+	margin: auto;
+	margin-top:25px;
+	width: 540px;
+	height: 240px;
+	display: block;
+
+}
+
+#button {
+	margin-top: 25px;
+	margin-left: 605px;
+	padding: 12px 35px;
+	font-size: 22px;
+	background-color: #69d8d7;
+	color: #fff;
+	border: none;
+}
+
+#mamma1 {
+	padding-top: 25px;
+	width: 960px;
+	height: 440px;
+	margin: auto;
+
+}
+
+#mamma2 {
+	width: 960px;
+	
+	margin: auto;
+	background-color:;
+}
+
+
+.kort {
+	width: 400px;
+	height: 300px;
+	border: 1px solid #ebebeb;
+	display: none;
+	float: left;
+}
+
+.kortrubrik {
+	margin-top: -17px;
+	background-color: #ff7765;
+	width: 400px;
+	height: 65px;
+
+}
+
+h1 {
+	line-height: 65px;
+	font-size: 24px;
+	color: #fff;
+	padding-left: 15px;
+	font-family: 'Muli', sans-serif; 
+	font-weight: 300;
+
+}
+
+.menupics {
+	width: 75px;
+	height: 300px;
+	float: left;
+	display: none;
+	margin-left: -75px;
+
+}
+
+.kortdiv:nth-child(even) .menupics {
+float: right;
+margin-right: -75px;
+margin-left: 0px;
+}
+
+.kortdiv:nth-child(even) .kort{
+float: right;
+
+}
+
+
+ul
+{
+    list-style-type: none;
+}
+
+.kortdiv {
+	margin-top: 30px;
+	width: 477px;
+	float: left;
+
 }

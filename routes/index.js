@@ -3,7 +3,7 @@ var Todo = require('../models/Todo');
 exports.index = function(req, res) {
   Todo.find({}, function(err, todos) {
     res.render('index', {
-      title: 'Todo',
+      title: 'Todos',
       todos: todos
     });
   });
